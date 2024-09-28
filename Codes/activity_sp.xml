@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bed9fa">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="221dp"
+        android:layout_height="241dp"
+
+        android:layout_centerInParent="true"
+        android:src="@drawable/shp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:layout_marginTop="550dp"
+android:text="Welcome" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:layout_marginTop="573dp"
+        android:text="to the WORLD" />
+
+</RelativeLayout>
